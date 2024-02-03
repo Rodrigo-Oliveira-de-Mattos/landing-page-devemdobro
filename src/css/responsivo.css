@@ -1,0 +1,54 @@
+@media screen and (min-width: 900px){
+    .cabecalho{
+        display: flex;
+    }
+
+    .cabecalho nav ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .cabecalho nav ul a{
+        padding: 10px 30px;
+        border-radius: 999px;
+    }
+
+    .sobre{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .sobre .items{
+        text-align: start;
+    }
+
+    .servicos{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .servicos > div{
+        text-align: center;
+        padding: 60px;
+    }
+
+    .projetos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .rodape {
+        height: 10vh;
+        padding: 100px;
+    }
+
+    .rodape ul {
+        display: flex;
+        width: 40%;
+        font-size: 2rem;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+}

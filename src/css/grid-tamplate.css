@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "cabecalho cabecalho cabecalho cabecalho"
+    "introducao introducao introducao introducao"
+    "sobre sobre sobre sobre"
+    "servicos servicos servicos servicos"
+    "projetos projetos projetos projetos"
+    "rodape rodape rodape rodape"
+    ;
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+}
+
+.introducao{
+    grid-area: introducao;
+}
+
+.sobre{
+    grid-area: sobre;
+}
+
+.servicos{
+    grid-area: servicos;
+}
+
+.projetos{
+    grid-area: projetos;
+}
+
+.rodape{
+    grid-area: rodape;
+}
